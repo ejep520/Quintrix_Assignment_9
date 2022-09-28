@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorator="layouts/default.html">
+<head>
+<title>New Person Help Page</title>
+<meta charset="utf-8">
+<style>
+td#center { text-align: center; }
+</style>
+</head>
+<body>
+<p>
+If you're seeing this, it's because you attempted to GET this page.<br>
+This resource should be requested as a POST with the following fields:<br></p>
+<table>
+<tr>
+<th>Field Name</th>
+<th>Contents</th>
+<tr>
+<td id="center">fName</td>
+<td>The person's first or given name.</td>
+<tr>
+<td id="center">lName</td>
+<td>The person's last or family name.</td>
+<tr>
+<td id="center">skills</td>
+<td>The list or array of skills related to this person.</td>
+</table>
+</body>
+</html> 
